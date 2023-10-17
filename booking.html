@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        .table{
+            margin-top: 50px;
+        }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        border: 1px solid #ddd;
+        margin: 0 auto;
+      }
+
+      th,
+      td {
+        padding: 8px 12px;
+        border-bottom: 1px solid #ddd;
+        border-top: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+      }
+      tr:nth-child(odd) {
+        background-color: rgb(188 194 195 / 15%);
+      }
+      th {
+        background-color: rgba(32, 90, 137, 1);
+        color: #ffc300;
+      }
+      tr:hover {
+        background-color: rgba(0, 0, 0, 0.2);
+      }
+
+      /* table,
+      th,
+      td {
+        text-align: center;
+        border: 1px solid black;
+        border-collapse: collapse;
+        border-radius: 10px;
+      }
+      .table {
+        margin-top: 100px;
+      } */
+    </style>
+    <script
+      src="https://kit.fontawesome.com/a11a3f5c44.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="header">
+      <img
+        src="https://images.railyatri.in/ry-logo.png"
+        class="logo"
+        alt="logo"
+      />
+      <div class="left-side">
+        <a href="#" class="nav-links"
+          ><i class="fa-solid fa-train-tram"></i>Train Tickets</a
+        >
+        <a href="#"><i class="fa-solid fa-bus"></i>InterCity SmartBus</a>
+        <a href="#"><i class="fa-solid fa-circle-info"></i>Train Info</a>
+        <a href="#">More...</a>
+      </div>
+      <!-- <div class="right-side">
+        <a href="./login.html">Login</a>
+      </div> -->
+    </section>
+    <section class="table">
+      <h1
+        style="
+          text-align: center;
+          font-family: 'Courier New', Courier, monospace;
+          color: #003391;
+        "
+      >
+        Select Train
+      </h1>
+      <table style="width: 100%">
+        <tr>
+          <th>Sl.No</th>
+          <th>Train No</th>
+          <th>Train Name</th>
+          <th>Arrival Time</th>
+          <th>Origin</th>
+          <th>Destination</th>
+        </tr>
+        <tr>
+          <td><a href="">1 </a></td>
+          <td><a href="">22208 </a></td>
+          <td><a href="./seat.html">Chennai Express</a></td>
+          <td><a href="">12:00 PM </a></td>
+          <td><a href="">TVM </a></td>
+          <td><a href="">MGR </a></td>
+        </tr>
+        <tr>
+          <td><a href=""> 2 </a></td>
+          <td><a href=""> 22208 </a></td>
+          <td><a href="./seat.html"> Maveli Express</a></td>
+          <td><a href=""> 14:40 </a></td>
+          <td><a href=""> TVM </a></td>
+          <td><a href=""> DEL </a></td>
+        </tr>
+        <tr>
+          <td><a href=""> 3 </a></td>
+          <td><a href=""> 22208 </a></td>
+          <td><a href="./seat.html"> Trivandrum Duronto Express</a></td>
+          <td><a href=""> 17:35 </a></td>
+          <td><a href=""> TVM </a></td>
+          <td><a href=""> EKM </a></td>
+        </tr>
+        <tr>
+          <td><a href=""> 4 </a></td>
+          <td><a href=""> 22208 </a></td>
+          <td><a href="./seat.html"> Chennai Egmore Guruvayur Express</a></td>
+          <td><a href=""> 19:00 </a></td>
+          <td><a href=""> TVM </a></td>
+          <td><a href=""> MGR </a></td>
+        </tr>
+        <tr>
+          <td><a href=""> 5 </a></td>
+          <td><a href=""> 22208 </a></td>
+          <td><a href="./seat.html"> Trivndrm Rajdhani</a></td>
+          <td><a href=""> 22:10 </a></td>
+          <td><a href=""> TVM </a></td>
+          <td><a href=""> MLR </a></td>
+        </tr>
+        <tr>
+          <td><a href=""> 6 </a></td>
+          <td><a href=""> 22208 </a></td>
+          <td><a href="./seat.html"> Kochuveli Express</a></td>
+          <td><a href=""> 04:25 </a></td>
+          <td><a href=""> TVM </a></td>
+          <td><a href=""> BLR </a></td>
+        </tr>
+        <tr>
+          <td><a href=""> 7 </a></td>
+          <td><a href=""> 22208 </a></td>
+          <td><a href="./seat.html"> Chennai Egmore Guruvayur Express</a></td>
+          <td><a href=""> 19:00 </a></td>
+          <td><a href=""> TVM </a></td>
+          <td><a href=""> MGR </a></td>
+        </tr>
+        <tr>
+          <td><a href=""> 8 </a></td>
+          <td><a href=""> 22208 </a></td>
+          <td><a href="./seat.html"> Trivndrm Rajdhani</a></td>
+          <td><a href=""> 22:10 </a></td>
+          <td><a href=""> TVM </a></td>
+          <td><a href=""> MLR </a></td>
+        </tr>
+        <tr>
+          <td><a href=""> 9 </a></td>
+          <td><a href=""> 22208 </a></td>
+          <td><a href="./seat.html"> Kochuveli Express</a></td>
+          <td><a href=""> 04:25 </a></td>
+          <td><a href=""> TVM </a></td>
+          <td><a href=""> BLR </a></td>
+        </tr>
+      </table>
+    </section>
+  </body>
+</html>

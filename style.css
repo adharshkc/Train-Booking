@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* For Header */
+.header {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    padding-left: 45px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 150px;
+}
+
+.left-side {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background: #bcfdcd; */
+    /* box-sizing: border-box; */
+}
+
+.right-side {
+    /* background-color: antiquewhite; */
+    width: 41%;
+    height: 100%;
+    display: flex;
+    font-weight: bold;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 140px;
+    /* margin-right: 20px; */
+}
+
+/* For Body */
+.section1 {
+    background-image: url('https://images.railyatri.in/ry_images_prod/Homepage-BannerNew-1592207921.jpg');
+    background-repeat: no-repeat;
+    /* opacity: 0.3; */
+    background-size: 100% 100%;
+    width: 100%;
+    height: 400px;
+}
+
+.section1-heading {
+    color: #fff;
+    opacity: 1;
+    /* font-family: sans-serif; */
+    padding-left: 42%;
+    padding-top: 100px;
+}
+
+.section1-input {
+    width: 1000px;
+    height: 53px;
+    background: #fff;
+    margin-left: 19%;
+    margin-top: 10%;
+    border-radius: 2px;
+}
+
+.section1-input-form{
+    width: 243px;    
+    box-sizing: border-box;
+    border: none ;
+    border-right: 1px solid;
+    height: 100%;
+    outline: none;
+}
+
+.section1-input-form-button{
+    height: 100%;
+    width: 100%;
+}
+
+.section1-input-form-date-button{
+    /* width: 10px; */
+    height: 35px;
+    border: 0.5px solid #383232;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.section1-input-form-date{
+    height: 100%;
+    box-sizing: border-box;
+    /* width: 100%; */
+    top: 50%;
+    left: 50%;    
+    font-size: 12px;
+    border: 0;
+}
+
+.section1-input-form-submit{
+    background-color: #1779d7;
+    width: 18%;
+    border: 0px;
+    height: 100%;
+    float: right;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    padding: 12px 0 12px 0;
+    box-sizing: border-box;
+}
+
+.section2{
+    padding-top: 10px;
+    padding-left: 100px;
+    /* margin-left: 20px; */
+}
+
+.section2-image{
+    /* padding-left: 10px;
+    margin-left: 20px; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+}
+
+button{
+    cursor: pointer;
+}
+
+.section3-img{
+    width: 300px;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: #fff;
+    height: 230px;
+    margin-left: 2px;
+}
+
+.section4{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.footer{
+  background-color:#26272b;
+  /* padding:45px 0 20px; */
+  font-size:15px;
+  line-height:24px;
+  
+  height: 200px;
+  color:#837f7f;
+}
+
+.about{
+    text-align: center;
+    display: flex;
+    /* width: 500px; */
+}
+
+

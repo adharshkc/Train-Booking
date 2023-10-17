@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bus Ticket Booking</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .bus-container {
+      margin-left: 385px;
+      padding: 20px;
+      display: flex;
+      
+    }
+    a{
+        text-decoration: none;
+    }
+    .seat-map {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      flex-direction: column-reverse;
+      margin-left: 50px;
+    align-content: flex-start;
+    }
+
+    .seat-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+    /* .seat-row1{
+        display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 10px;
+      margin-left: 2px;
+    } */
+    .seat {
+      width: 50px;
+      height: 50px;
+      margin: 5px;
+      font-size: 14px;
+      line-height: 1;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      background-color: #c7e4b3;
+      display: flex;
+      color: #000;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      position: relative;
+    }
+
+    .seat-label {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+   
+  
+    .book-button {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 50px;
+      /* margin-left: 215px; */
+    }
+
+    .book-button button {
+      padding: 10px 20px;
+      background-color: #3498db;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    .book-button button:hover {
+      background-color: #484d48;
+    color: white;
+    }
+
+  
+ 
+  </style>
+   <script
+   src="https://kit.fontawesome.com/a11a3f5c44.js"
+   crossorigin="anonymous"
+ ></script>
+</head>
+<body>
+  <section class="header">
+    <img
+      src="https://images.railyatri.in/ry-logo.png"
+      class="logo"
+      alt="logo"
+    />
+    <div class="left-side">
+      <a href="#" class="nav-links"
+        ><i class="fa-solid fa-train-tram"></i>Train Tickets</a
+      >
+      <a href="#"><i class="fa-solid fa-bus"></i>InterCity SmartBus</a>
+      <a href="#"><i class="fa-solid fa-circle-info"></i>Train Info</a>
+      <a href="#">More...</a>
+    </div>
+    <!-- <div class="right-side">
+      <a href="./login.html">Login</a>
+    </div> -->
+  </section>
+  <h1 style="text-align: center; font-family: 'Courier New', Courier, monospace; margin-top: 80px;">Please select the seat</h1>
+  <div class="bus-container">
+    <div class="seat-map" id="seatMap">
+      <div class="seat-row">
+        <div class="seat available"><a href="" class="seat-label">1</a></div>
+        <div class="seat available"><a href="" class="seat-label">2</a></div>
+        <div class="seat available"><a href="" class="seat-label">4</a></div>
+      </div>
+      <div class="seat-row">
+        <div class="seat available"><a href="" class="seat-label">1</a></div>
+        <div class="seat available"><a href="" class="seat-label">2</a></div>
+        <div class="seat available"><a href="" class="seat-label">4</a></div>
+      </div>
+      <div class="seat-row">
+        <div class="seat available"><a href="" class="seat-label">1</a></div>
+        <div class="seat available"><a href="" class="seat-label">2</a></div>
+        <div class="seat available"><a href="" class="seat-label">4</a></div>
+      </div>
+      <div class="seat-row">
+        <div class="seat available"><a href="" class="seat-label">1</a></div>
+        <div class="seat available"><a href="" class="seat-label">2</a></div>
+        <div class="seat available"><a href="" class="seat-label">4</a></div>
+      </div>
+      <div class="seat-row">
+        <div class="seat available"><a href="" class="seat-label">1</a></div>
+        <div class="seat available"><a href="" class="seat-label">2</a></div>
+        <div class="seat available"><a href="" class="seat-label">4</a></div>
+      </div>
+      <div class="seat-row">
+        <div class="seat available"><a href="" class="seat-label">1</a></div>
+        <div class="seat available"><a href="" class="seat-label">2</a></div>
+        <div class="seat available"><a href="" class="seat-label">4</a></div>
+      </div>
+      <div class="seat-row">
+        <div class="seat available"><a href="" class="seat-label">1</a></div>
+        <div class="seat available"><a href="" class="seat-label">2</a></div>
+        <div class="seat available"><a href="" class="seat-label">4</a></div>
+      </div>
+      
+    </div>
+    <div class="seat-map" id="seatMap">
+      
+      <div class="seat-row">
+        <div class="seat available"><a href="" class="seat-label">1</a></div>
+        <div class="seat available"><a href="" class="seat-label">2</a></div>
+        <div class="seat available"><a href="" class="seat-label">4</a></div>
+      </div>
+      <div class="seat-row">
+        <div class="seat available"><a href="" class="seat-label">1</a></div>
+        <div class="seat available"><a href="" class="seat-label">2</a></div>
+        <div class="seat available"><a href="" class="seat-label">4</a></div>
+      </div>
+      <div class="seat-row">
+        <div class="seat available"><a href="" class="seat-label">1</a></div>
+        <div class="seat available"><a href="" class="seat-label">2</a></div>
+        <div class="seat available"><a href="" class="seat-label">4</a></div>
+      </div>
+      <div class="seat-row">
+        <div class="seat available"><a href="" class="seat-label">1</a></div>
+        <div class="seat available"><a href="" class="seat-label">2</a></div>
+        <div class="seat available"><a href="" class="seat-label">4</a></div>
+      </div>
+      <div class="seat-row">
+        <div class="seat available"><a href="" class="seat-label">1</a></div>
+        <div class="seat available"><a href="" class="seat-label">2</a></div>
+        <div class="seat available"><a href="" class="seat-label">4</a></div>
+      </div>
+      <div class="seat-row">
+        <div class="seat available"><a href="" class="seat-label">1</a></div>
+        <div class="seat available"><a href="" class="seat-label">2</a></div>
+        <div class="seat available"><a href="" class="seat-label">4</a></div>
+      </div>
+      <div class="seat-row">
+        <div class="seat available"><a href="" class="seat-label">1</a></div>
+        <div class="seat available"><a href="" class="seat-label">2</a></div>
+        <div class="seat available"><a href="" class="seat-label">4</a></div>
+      </div>
+    </div>
+   
+    
+</div>
+<div class="book-button">
+  <button id="bookButton" disabled><a href="./payment.html" style="color: #fff;">Book Now</a></button>
+</div>
+  
+</body>
+</html>
